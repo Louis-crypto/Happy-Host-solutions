@@ -1,0 +1,8 @@
+#home{
+  color: white;
+  text-align: center;
+  background-image: url("../images/homebg.jpg");
+  height: 100vh;
+  line-height: 200px;
+  background-size: cover;
+}
