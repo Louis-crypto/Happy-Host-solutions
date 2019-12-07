@@ -7,25 +7,33 @@
   background-size: cover;
 }
 #about{
-  margin-top: 5%;
+  margin-top: 4%;
   text-align: center;
+  justify-content: space-evenly;
 }
 #services{
-  margin-top: 5%;
+  margin-top: 4%;
   color: white;
   text-align: center;
   background-image: url("../images/servicesbg.jpg");
+  line-height: 100px;
+}
+  .service{
+  justify-content: space-evenly;
 }
 #jobs{
-  margin-top: 5%;
+  margin-top: 4%;
   text-align: center;
 }
 #contacts{
-  margin-top: 5%;
+  margin-top: 4%;
   color: white;
   text-align: center;
   background-image: url("../images/contactsbg.jpg");
   height: 70vh;
+}
+.contactitle{
+  margin-top: 5%;
 }
 #name{
   background: none;
@@ -46,7 +54,7 @@
   background: none;
   width: 50%;
   outline: 0;
-  padding: 10px;
+  margin-top: 2.5%;
   border: 1px solid white;
   line-height: 200px;
 }
