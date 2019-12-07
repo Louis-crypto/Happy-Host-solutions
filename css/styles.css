@@ -21,16 +21,30 @@
   color: white;
   text-align: center;
   background-image: url("../images/contactsbg.jpg");
+  height: 70vh;
 }
 #name{
   background: none;
-  
+  width: 25%;
+  outline: 0;
+  padding: 10px;
+  border: 1px solid white;
 }
 #email{
   background: none;
+  width: 25%;
+  outline: 0;
+  padding: 10px;
+  border: 1px solid white;
+  
 }
 #message{
   background: none;
+  width: 50%;
+  outline: 0;
+  padding: 10px;
+  border: 1px solid white;
+  line-height: 200px;
 }
 ::placeholder{
   color: white;
