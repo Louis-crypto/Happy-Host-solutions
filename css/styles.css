@@ -9,3 +9,8 @@
 #about{
   text-align: center;
 }
+#services{
+  color: white;
+  text-align: center;
+  background-image: url("../images/servicesbg.jpg");
+}
