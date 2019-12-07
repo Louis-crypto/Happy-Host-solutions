@@ -7,17 +7,21 @@
   background-size: cover;
 }
 #about{
+  margin-top: 5%;
   text-align: center;
 }
 #services{
+  margin-top: 5%;
   color: white;
   text-align: center;
   background-image: url("../images/servicesbg.jpg");
 }
 #jobs{
+  margin-top: 5%;
   text-align: center;
 }
 #contacts{
+  margin-top: 5%;
   color: white;
   text-align: center;
   background-image: url("../images/contactsbg.jpg");
