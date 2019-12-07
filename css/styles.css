@@ -18,5 +18,20 @@
   text-align: center;
 }
 #contacts{
+  color: white;
+  text-align: center;
   background-image: url("../images/contactsbg.jpg");
+}
+#name{
+  background: none;
+  
+}
+#email{
+  background: none;
+}
+#message{
+  background: none;
+}
+::placeholder{
+  color: white;
 }
