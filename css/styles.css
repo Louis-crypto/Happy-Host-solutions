@@ -9,7 +9,6 @@
 #about{
   margin-top: 4%;
   text-align: center;
-  justify-content: space-evenly;
 }
 #services{
   margin-top: 4%;
@@ -18,12 +17,18 @@
   background-image: url("../images/servicesbg.jpg");
   line-height: 100px;
 }
-  .service{
-  justify-content: space-evenly;
-}
 #jobs{
   margin-top: 4%;
   text-align: center;
+}
+#design{
+  display: none;
+}
+#development{
+  display: none;
+}
+#product{
+  display: none;
 }
 #contacts{
   margin-top: 4%;
