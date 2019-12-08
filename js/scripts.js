@@ -1,6 +1,8 @@
 $(document).ready(function () {
   $("#designIcon").click(function () {
-    $("#design").show();
+    $("#design").show(function(){
+      $("#designIcon").hide();
+    });
   });
 
 
