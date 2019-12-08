@@ -2,12 +2,25 @@
   color: white;
   text-align: center;
   background-image: url("../images/homebg.jpg");
+  font-family: 'Roboto', sans-serif;
   /* height: 100vh; 
   line-height: 200px;*/
   background-size: cover;
 }
 #logo{
   margin-top: 17%;
+  position: relative;
+}
+#welcome{
+  font-size: 50px;
+  padding-top: 30px;
+}
+#studio{
+  font-size: 50px;
+  padding-top: 20px;
+}
+#mouse-click{
+  padding-top: 10%;
 }
 #about{
   margin-top: 4%;
