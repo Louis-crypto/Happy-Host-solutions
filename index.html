@@ -20,11 +20,11 @@
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <div id="home">
-      <img src="images/logo.png" alt="our_logo" class="logo"><br>
-      <h1>WELCOME</h1>
-      <h1>TO DELANI STUDIO</h1>
-      <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIONMENT</P>
-      <img src="images/mouse_click.png" alt="mouse_click" class="mouse-click">
+      <img src="images/logo.png" alt="our_logo" id="logo"><br>
+      <h1 id="welcome">WELCOME</h1>
+      <h1 id="studio">TO DELANI STUDIO</h1>
+      <P id="amazing">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIONMENT</P>
+      <img src="images/mouse_click.png" alt="mouse_click" id="mouse-click">
     </div>
     <div id="about">
       <h1>ABOUT US</h1>
@@ -109,16 +109,6 @@
     <div id="contacts">
       <h1 class="contactitle">CONTACT US</h1>
       <!-- Begin Mailchimp Signup Form -->
-      <style type="text/css">
-        #mc_embed_signup {
-          background: none;
-          clear: left;
-          font: 14px Helvetica, Arial, sans-serif;
-        }
-
-        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-      </style>
       <div id="mc_embed_signup">
         <form action="https://github.us4.list-manage.com/subscribe/post?u=eac891b60e262bfa875d07ece&amp;id=4a6e58f600"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
@@ -147,7 +137,7 @@
           window.ftypes = new Array();
           fnames[0] = 'EMAIL';
           ftypes[0] = 'email';
-          fnames[2] = 'LNAME';
+          fnames[2] = 'NAME';
           ftypes[2] = 'text';
           fnames[1] = 'MESSAGE';
           ftypes[1] = 'text';
