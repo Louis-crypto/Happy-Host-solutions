@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var userName = document.getElementById("name").value;
   $("#submit").on("click", function () {
-    alert("dear" + " " + userName + " " + "we have received your message");
+    alert(userName + " " + "we have received your message, thank you for reaching us");
   });
 
   $("#designIcon").on("click", function () {
