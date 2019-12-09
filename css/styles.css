@@ -46,20 +46,20 @@
   margin-top: 4%;
   text-align: center;
 }
+#wedo{
+  padding-bottom: ;
+}
 #alldescription{
   display: flex;
 }
 #designIcon, #devIcon, #prodIcon{
   }
 #design, #development, #product{
-  displa: none;
-}
-/* #development{
   display: none;
 }
-#product{
-  display: none;
-} */
+#row2{
+  padding-top: 15px;
+}
 #contacts{
   margin-top: 4%;
   color: white;
