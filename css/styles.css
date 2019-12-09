@@ -52,7 +52,29 @@
 #design, #development, #product{
   display: none;
 }
-#caption{
+#caption, #caption1, #caption2{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  margin-bottom: 20%;
+  left: 5%;
+  color: white;
+  display: none;
+}
+#caption3, #caption4, #caption5{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  margin-bottom: 20%;
+  left: 5%;
+  color: white;
+  display: none;
+}
+#caption6, #caption7{
   position: absolute;
   text-align: center;
   width: 100%;
