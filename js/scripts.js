@@ -30,4 +30,14 @@ $(document).ready(function () {
     $("#prodIcon").show();
     $("#product").hide();
   });
+
+  $("#work1").mouseover(function(){
+    $("#caption").fadeIn(500);
+  }).mouseout(function(){
+    $("#caption").fadeOut(500);
+  });
+
+  // $("#work1").hover(function(){
+  //   $(this).css({opacity: 0.3});
+  // }); 
 });
