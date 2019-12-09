@@ -46,15 +46,13 @@
   margin-top: 4%;
   text-align: center;
 }
-#designIcon, #devIcon, #prodIcon{
-  margin: 30px;
-  margin-left: 90px;
-}
-#design, #development, #product{
+#alldescription{
   display: flex;
-  padding: 30px;
-  padding-left: 90px;
-  display: none;
+}
+#designIcon, #devIcon, #prodIcon{
+  }
+#design, #development, #product{
+  displa: none;
 }
 /* #development{
   display: none;
