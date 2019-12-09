@@ -32,12 +32,14 @@
   color: white;
   text-align: center;
   background-image: url("../images/servicesbg.jpg");
+  line-height: 35px;
+
 }
 #serve{
   padding-top: 10%;
 }
 #service{
-  padding-bottom: 10%;
+  padding-bottom: 7%;
 }
 #jobs{
   margin-top: 4%;
