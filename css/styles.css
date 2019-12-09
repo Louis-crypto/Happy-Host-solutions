@@ -26,7 +26,7 @@
   margin-top: 4%;
   text-align: center;
   line-height: 50px;
-  font-family: 'Alatsi', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #services{
   margin-top: 4%;
@@ -34,7 +34,7 @@
   text-align: center;
   background-image: url("../images/servicesbg.jpg");
   line-height: 35px;
-  font-family: 'Alatsi', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 #serve{
   padding-top: 10%;
@@ -46,15 +46,22 @@
   margin-top: 4%;
   text-align: center;
 }
-#design{
+#designIcon, #devIcon, #prodIcon{
+  margin: 30px;
+  margin-left: 90px;
+}
+#design, #development, #product{
+  display: flex;
+  padding: 30px;
+  padding-left: 90px;
   display: none;
 }
-#development{
+/* #development{
   display: none;
 }
 #product{
   display: none;
-}
+} */
 #contacts{
   margin-top: 4%;
   color: white;
@@ -71,6 +78,8 @@
   outline: 0;
   padding: 10px;
   border: 1px solid white;
+  color: white;
+  font-size: 18px;
 }
 #email{
   background: none;
@@ -78,18 +87,23 @@
   outline: 0;
   padding: 10px;
   border: 1px solid white;
+  color: white;
+  font-size: 18px;
   
 }
 #message{
   background: none;
-  width: 50%;
+  width: 52%;
   outline: 0;
   margin-top: 2.5%;
   border: 1px solid white;
-  line-height: 200px;
+  padding-bottom: 15%;
+  color: white;
+  font-size: 18px;
 }
 ::placeholder{
   color: white;
+  font-size: 18px;
 }
 #social{
   text-align: center;
