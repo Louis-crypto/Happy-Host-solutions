@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  var userName = document.getElementById("name").value;
   $("#submit").on("click", function () {
+    var userName = document.getElementById("name").value;
     alert(userName + " " + "we have received your message, thank you for reaching us");
   });
 
